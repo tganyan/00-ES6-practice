@@ -23,9 +23,10 @@ Follow these instructions carefully and in order.
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
 (Put your answer here)
-
+The primary areas where I needed to convert const back to let centered around items that are changing values, such as for loops or the totalClicks variable. This falls in line with the meaning of those keywords, const meaning constant (value doesn't change), and let being a bit more maleable).
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
 (Put your answer here)
+Absolutely. I did myself the favor of discovering template literals in my own time so I already use them where I can; switching the concatenated strings over wasn't very difficult as long as I move carefully.
